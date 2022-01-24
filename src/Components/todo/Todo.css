@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: navy;
+}
+.main-div {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.input-div {
+  display: flex;
+}
+
+.input-div input {
+  width: 80%;
+  padding: 10px 15px;
+  background-color: white;
+}
+.todo-btn {
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item-added {
+  width: 80%;
+  margin-top: 20px;
+}
+.item-style {
+  color: white;
+  padding: 8px 10px;
+  background-color: red;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
